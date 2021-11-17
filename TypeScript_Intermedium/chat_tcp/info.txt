@@ -1,0 +1,6 @@
+1 - Clase servidor que haga de servidor con un socket (en un puerto y host configurable por metodo)
+2 - Clase cliente que se conecte a un servidor con un puerto y host (configurable) y vaya mandando mensajes.
+3 - Cuando el servidor recibe un mensaje, manda el mensaje con timestamp y origen del mensaje (IP+puerto). El formato por ejemplo puede ser TIMESTAMP_ISO (IP_ORIGEN:PUERTO_ORIGEN) > MENSAJE
+4 - Los clientes sacan por consola los mensajes que reciben.
+5 - Para probar, puedes crear clientes y que manden mensajes aleatorios, o directamente con un PacketSender puedes enviar mensajes a tu servidor
+6 - Al ser TCP, los mensajes pueden venir troceados (o varios en un solo paquete), asi que tiene que ser capaz de detectar eso y volver a juntar mensajes separados, y separar mensajes que llegan en el mismo paquete.

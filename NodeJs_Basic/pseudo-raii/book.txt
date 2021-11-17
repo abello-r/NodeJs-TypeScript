@@ -1,0 +1,9 @@
+Hola soy el libro
+tengo informacion
+para probar el fichero
+de pseudo raii
+donde evaluo linea a linea
+y reviso que los metodos
+funcionan correctamente
+es como un lorem ipsum
+pero a veces

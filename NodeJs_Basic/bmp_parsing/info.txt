@@ -1,0 +1,39 @@
+1 - Si el fichero no es un bmp se lanza
+excepcion (no vale usar la extension del fichero para esto)
+[OK]
+
+2 - Esta prohibido cargar todo el fichero en memoria
+(es decir, nada de fs.readFile o usar un stream e 
+ir metiendo los chunks a memoria para luego parsearlo).
+Aqui el fichero pesa poco (kilobytes), pero si fuera un
+fichero gordo no podrias guardarlo en memoria
+[OK]
+
+3 - Cada fichero bmp va asociado a una clase
+(llamala como quieras). El diseño es 100% tuyo,
+y si no sabes por donde tirar o no estas seguro me
+puedes preguntar (que es lo que se haria en un proyecto real)
+[OK]
+
+4 - Tienes que sacar por consola los parametros 
+de la cabecera (tamaño del fichero, ancho, alto,
+profundidad de color en bits, tamaño de los datos,
+resolucion en DPI)
+[OK]
+
+5 - Luego, tienes que crear un iterador para tu
+clase que devuelva las lineas horizontales de la
+imagen en el mismo orden en el que esta en el fichero
+[OK]
+
+6 - Por ultimo, una vez que hayas creado esa clase,
+quiero que utilices esa clase para crear una imagen
+invertida del BMP
+[OK]
+
+/****************************************************************
+* Ah, usa funciones async para que sea un poco mas				*
+* complicado xD													*
+* En un proyecto estan prohibidas las funciones sincronas		*
+* (salvo casos muy excepcionales)								*
+/****************************************************************

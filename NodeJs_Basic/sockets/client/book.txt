@@ -1,0 +1,6 @@
+To fix the problem described above,
+we need a mechanism with which we can divide large amounts of data into small chunks.
+We will also need data structures to store these chunks and work with them.
+A buffer is a data structure that allows you to store binary data. Next,
+we must be able to read data from disk and write it to disk. This opportunity can give us flows.
+Let's talk about buffers and threads.
