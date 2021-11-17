@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es2019",
+        "lib": ["esnext"],
+        "module": "commonjs",
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "sourceMap": false,
+        "esModuleInterop": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "outDir": "./lib",
+        "downlevelIteration": true
+    },
+    "include": [
+        "./src/index.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -4,3 +4,7 @@
 4 - Los clientes sacan por consola los mensajes que reciben.
 5 - Para probar, puedes crear clientes y que manden mensajes aleatorios, o directamente con un PacketSender puedes enviar mensajes a tu servidor
 6 - Al ser TCP, los mensajes pueden venir troceados (o varios en un solo paquete), asi que tiene que ser capaz de detectar eso y volver a juntar mensajes separados, y separar mensajes que llegan en el mismo paquete.
+7 - Da de alta un package.json con npm init.
+8 - Usa Typescript localmente (sin instalarlo como global, pero instalando como dev dependency), instala la ultima version que haya, instala los tipos de node 12 (@types/node@12 creo)
+9 - Crea scripts de npm para lanzar typescript build y otro para hacer watch, te he puesto ficheros de config de TS, tienes que invocar uno u otro en funcion de si es build o watch.
+10 - Una vez que tengas los scripts de npm para lanzarlo, crea tasks en VSCode para lanzar esos scripts (los tasks se lanzan con CTRL + SHIFT + B, y estan en .vscode/tasks.json)
